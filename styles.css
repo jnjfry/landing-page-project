@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+.header img {
+    width: 100px;
+    height: auto;    
+}
+.card img {
+    width: 300px;
+    height: auto;
+}
+.pic img {
+    width: 150px;
+    height: auto;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+ul {
+    display: flex;
+    list-style: none;
+    gap: 8px;
+}
+a {
+    text-decoration-line: none;
+}
+.title {
+    display: flex;
+    flex-direction: row;
+}
+.card {
+    display: flex;
+    flex-flow: column wrap;
+    flex: 0 0 300px;
+}
+/*button{
+    flex: 0;
+}*/
+.mid {
+    display: flex;
+    flex-direction: column;
+}
+.pictures {
+    display: flex;
+
+}
+.pic {
+    display:flex;
+    flex-direction: column;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+.action {
+    display: flex;
+
+}
+.more{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
