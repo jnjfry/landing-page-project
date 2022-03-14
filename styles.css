@@ -38,12 +38,18 @@ a {
     flex-direction: row;
     background-color: #2d415e;
     color: #E5e7eb;
-    justify-content: center;
+    justify-content: center; 
+    font-size: 18px;
+    color: #e5e7eb; 
+}
+h2{
+    font-size:48px;
+    color: #f9faf8;
 }
 .card {
     display: flex;
     flex-flow: column wrap;
-    flex: 0 0 300px;
+    flex: 0 0 auto;
     padding: 16px;
 }
 .card button{
@@ -84,6 +90,12 @@ button{
 .quote {
     display: flex;
     flex-direction: column;
+    background-color: #e5e7eb;
+}
+.words{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
 }
 .action {
     display: flex;
