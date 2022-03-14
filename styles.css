@@ -116,3 +116,8 @@ button{
     background-color: #2d415e;
     color: #E5e7eb;
 }
+.pic img{
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #3882f6;
+}
